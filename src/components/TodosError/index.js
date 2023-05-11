@@ -3,7 +3,7 @@ import './TodosError.css';
 
 const TodosError = () => {
 return (
-<p> error </p>
+<p></p>
 )
 }
 

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
 form {
     width: 90%;
     max-width: 300px;
-    background-color: #fff;
+    background-color: #212529;
     padding: 33px 40px;
     display: flex;
     justify-content: center;
@@ -13,16 +15,16 @@ form {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: #1E1E1F;
+    color: #fff;
     margin-bottom: 26px;
   }
   
   textarea {
     background-color: #F9FBFC;
-    border: 2px solid #202329;
+    border: 2px solid #f5e1a4;
     border-radius: 2px;
     box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
-    color: #1E1E1F;
+    color: #212529;
     font-size: 20px;
     text-align: center;
     padding: 12px;
@@ -31,13 +33,13 @@ form {
   }
   
   textarea::placeholder {
-    color: #A5A5A5;
+    color: #a5a5a5;
     font-family: 'Montserrat';
     font-weight: 400;
   }
   
   textarea:focus {
-    outline-color: #61DAFA;
+    outline-color: #f5e1a4;
   }
   
   .TodoForm-buttonContainer {
@@ -52,7 +54,7 @@ form {
     cursor: pointer;
     display: inline-block;
     font-size: 20px;
-    color: #202329;
+    color: #212529;
     font-weight: 400;
     width: 120px;
     height: 48px;
@@ -62,10 +64,14 @@ form {
   }
   
   .TodoForm-button--add {
-    background: #61DAFA;
-    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    background: #f5e1a4;
+    box-shadow: 0px 0px 25px #f5e1a4;
+  }
+  .TodoForm-button:hover {
+    transform: scale(1.1);
+    font-weight: bold;
   }
   
   .TodoForm-button--cancel {
-    background: transparent;
+    background: #f5e1a4;
   }
