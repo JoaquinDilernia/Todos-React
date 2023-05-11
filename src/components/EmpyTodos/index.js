@@ -3,7 +3,7 @@ import './EmpyTodos.css';
 
 const EmpyTodos = () => {
 return (
-<p> crea tu priemr todo</p>
+<p> Crea tu primera tarea <span> + </span> </p>
 )
 }
 
